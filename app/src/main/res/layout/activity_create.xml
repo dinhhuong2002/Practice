@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightPrimaryGreen"
+    android:orientation="vertical"
+    tools:context=".Create">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:hint="Please enter name"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:hint="Please enter number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/location"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:hint="Please enter location"
+        android:minHeight="48dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        tools:context=".Create"
+        >
+        <ImageView
+            android:id="@+id/happy_icon"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/happy"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="50dp"/>
+        <ImageView
+            android:id="@+id/ok_icon"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ok"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"/>
+        <ImageView
+            android:id="@+id/sad_icon"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/sad"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
